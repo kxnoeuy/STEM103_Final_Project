@@ -21,16 +21,16 @@ while True:
 
     print("Thinking...")
     answer = random_response()
-    print("Magic 8 Ball says:", answer)
+    print("Magic 8 Ball says:", answer) 
 
     # Ask if user wants to continue
     continue_playing = input("Do you want to ask another question? (yes/no): ")
 
-    if continue_playing == "yes":
+    if continue_playing == "yes": # if yes the magic eight ball continues
         continue
-    elif continue_playing == "no":
+    elif continue_playing == "no": # if no, the program ends
         print("Goodbye!")
         break
     else:
-        print("Invalid input. Ending program.")
+        print("Invalid input. Ending program.") # The program also ends if an invalid reponse is entered
         break
